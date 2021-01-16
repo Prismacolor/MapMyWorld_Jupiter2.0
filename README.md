@@ -9,4 +9,6 @@ This project builds on two previous projects in which I designed and built the w
 
 Additional info can be found here: http://wiki.ros.org/rtabmap_ros
 
+**TIP** I used the rqt_graph package to make sure all nodes and topics were connected properly. That is in the config folder. If you find that certain topics are not publishing (you may see an error like "Data not received since 5 seconds!") double check that the names of your topics are correct.
+
 Note: For this project I actually cloned the teleop_twist_keyboard package for ROS in order to move my robot. If you clone this project, you may not be able to pull that package down because it is housed inside the catkin_ws folder. To clone it to your own repo, see here: https://github.com/ros-teleop/teleop_twist_keyboard
